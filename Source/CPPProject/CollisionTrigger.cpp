@@ -22,7 +22,7 @@ ACollisionTrigger::ACollisionTrigger()
 	//Creates the text renderer and centers it.
 	renderText = CreateDefaultSubobject<UTextRenderComponent>("TextComponent");
 	renderText->SetTextRenderColor(FColor::Green);
-	renderText->SetText(FText::FromString("This is a Trigger Box"));
+	renderText->SetText(FText::FromString("This is a Delegate Trigger Box"));
 	renderText->SetupAttachment(GetRootComponent());
 	renderText->SetRelativeRotation(FRotator(0.f, 180.f, 0.f));
 	renderText->SetHorizontalAlignment(EHTA_Center);
